@@ -1,0 +1,1 @@
+ServersInventoryAPI is a web base service that resides in Adminhub that accepts multiple sets of XML data and stores it in a SQL database. This web API serves as a upstream server and receives data from multiple environment (diff network segments).

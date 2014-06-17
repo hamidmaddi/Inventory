@@ -1,0 +1,17 @@
+$ChefFolder = 'c:\chef\'
+$sources = @("http://172.31.63.29/ServersInventoryAPI1/resources/Chef-Install/chef-client-11.12.4-1.windows.txt",
+             "http://172.31.63.29/ServersInventoryAPI1/resources/Chef-Install/chef-validator.txt",
+             "http://172.31.63.29/ServersInventoryAPI1/resources/Chef-Install/client.txt")
+$destinations = @("c:\chef\chef-client-11.12.4-1.windows.msi", "c:\chef\chef-validator.pem","c:\chef\client.rb")
+
+if (!(Test-Path -path $ChefFolder)) {New-Item $ChefFolder -Type Directory}
+
+For ($i=0;$i -lt 3; $i++) 
+    {
+    	$wc = New-Object System.Net.WebClient
+    	$wc.DownloadFile($sources[$i], $destinations[$i])
+    }
+    
+msiexec /qn /i C:\chef\chef-client-11.12.4-1.windows.msi ADDLOCAL="ChefClientFeature,ChefServiceFeature"
+Start-Sleep -s 900
+Start-Service chef-client

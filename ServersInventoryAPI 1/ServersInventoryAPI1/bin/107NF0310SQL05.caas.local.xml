@@ -1,0 +1,1839 @@
+<?xml version="1.0"?>
+<ComputerAssetInformation>
+    <SystemInformation>
+        <enclosureSerialNumber>USE919N4FJ</enclosureSerialNumber>
+        <enclosureChassisType>Rack Mount Chassis</enclosureChassisType>
+        <enclosurePath>\\107NF0310SQL05\root\cimv2:Win32_SystemEnclosure.Tag="System Enclosure 0"</enclosurePath>
+        <enclosureManufacturer >HP</enclosureManufacturer >
+        <biosName>Default System BIOS</biosName>
+        <biosVersion>HP     - 2</biosVersion>
+        <biosReleaseDate>24/10/2010</biosReleaseDate>
+        <biosSMBIOSBIOSVersion>P56</biosSMBIOSBIOSVersion>
+        <biosSMBIOSMajorVersion>2</biosSMBIOSMajorVersion>
+        <biosSMBIOSMinorVersion>4</biosSMBIOSMinorVersion>
+        <PhysicalMemoryTotal>1</PhysicalMemoryTotal>
+        <PhysicalMemoryFree>4</PhysicalMemoryFree>
+        <PhysicalMemoryPercentUsed>96.53</PhysicalMemoryPercentUsed>
+        <VirtualMemoryTotal>36</VirtualMemoryTotal>
+        <VirtualMemoryFree>16</VirtualMemoryFree>
+        <VirtualMemoryName>C:\pagefile.sys</VirtualMemoryName>
+        <VirtualMemoryInstallDate>10/21/2010 19:51:04</VirtualMemoryInstallDate>
+        <InventoryDate>12/21/2013 13:57:12</InventoryDate>
+        <systemName>107NF0310SQL05</systemName>
+        <systemDomain>caas.local</systemDomain>
+        <systemFQDN>107NF0310SQL05.caas.local</systemFQDN>
+        <systemIPAddress>172.31.65.35</systemIPAddress>
+        <systemDomainRole>Member Server</systemDomainRole>
+        <systemUUID>38313933-3533-5355-4539-31394E34464A</systemUUID>
+        <systemType>x64-based PC</systemType>
+        <systemDescription>Computer System Product</systemDescription>
+        <systemManufacturer>HP</systemManufacturer>
+        <systemModel>ProLiant DL380 G5</systemModel>
+        <systemTimeZone>(UTC-05:00) Eastern Time (US &amp; Canada)</systemTimeZone>
+        <systemPendingReboot>False</systemPendingReboot>
+        <systemWSUSsync>12/21/2013</systemWSUSsync>
+        <systemUptime>171 days, 20 hours, 23 minutes</systemUptime>
+        <IsVirtual>False</IsVirtual>
+        <vm_Type>N/A</vm_Type>
+        <vm_PhysicalHostName>N/A</vm_PhysicalHostName>
+        <Cluster>Not Clustered</Cluster>
+        <cpuCoreCount>8</cpuCoreCount>
+        <cpuCount>2</cpuCount>
+        <IPconfig><![CDATA[ Windows IP Configuration     Host Name . . . . . . . . . . . . : 107NF0310SQL05    Primary Dns Suffix  . . . . . . . : caas.local    Node Type . . . . . . . . . . . . : Hybrid    IP Routing Enabled. . . . . . . . : No    WINS Proxy Enabled. . . . . . . . : No    DNS Suffix Search List. . . . . . : caas.local  Ethernet adapter VLAN65:     Connection-specific DNS Suffix  . :     Description . . . . . . . . . . . : HP Network Team #1    Physical Address. . . . . . . . . : 00-23-7D-E3-6C-84    DHCP Enabled. . . . . . . . . . . : No    Autoconfiguration Enabled . . . . : Yes    IPv4 Address. . . . . . . . . . . : 172.31.65.35(Preferred)     Subnet Mask . . . . . . . . . . . : 255.255.255.0    Default Gateway . . . . . . . . . : 172.31.65.1    DNS Servers . . . . . . . . . . . : 172.31.65.21                                        172.31.65.22    NetBIOS over Tcpip. . . . . . . . : Disabled  Tunnel adapter Teredo Tunneling Pseudo-Interface:     Media State . . . . . . . . . . . : Media disconnected    Connection-specific DNS Suffix  . :     Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface    Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0    DHCP Enabled. . . . . . . . . . . : No    Autoconfiguration Enabled . . . . : Yes  Tunnel adapter isatap.{C8AB3448-6C4A-47FE-B58A-303E746097D4}:     Media State . . . . . . . . . . . : Media disconnected    Connection-specific DNS Suffix  . :     Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2    Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0    DHCP Enabled. . . . . . . . . . . : No    Autoconfiguration Enabled . . . . : Yes]]></IPconfig>
+        <Routes><![CDATA[=========================================================================== Interface List  16...00 23 7d e3 6c 84 ......HP Network Team #1   1...........................Software Loopback Interface 1  12...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface  15...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2 ===========================================================================  IPv4 Route Table =========================================================================== Active Routes: Network Destination        Netmask          Gateway       Interface  Metric           0.0.0.0          0.0.0.0      172.31.65.1     172.31.65.35    266         127.0.0.0        255.0.0.0         On-link         127.0.0.1    306         127.0.0.1  255.255.255.255         On-link         127.0.0.1    306   127.255.255.255  255.255.255.255         On-link         127.0.0.1    306       172.31.65.0    255.255.255.0         On-link      172.31.65.35    266      172.31.65.35  255.255.255.255         On-link      172.31.65.35    266     172.31.65.255  255.255.255.255         On-link      172.31.65.35    266         224.0.0.0        240.0.0.0         On-link         127.0.0.1    306         224.0.0.0        240.0.0.0         On-link      172.31.65.35    266   255.255.255.255  255.255.255.255         On-link         127.0.0.1    306   255.255.255.255  255.255.255.255         On-link      172.31.65.35    266 =========================================================================== Persistent Routes:   Network Address          Netmask  Gateway Address  Metric           0.0.0.0          0.0.0.0      172.31.65.1  Default  ===========================================================================  IPv6 Route Table =========================================================================== Active Routes:  If Metric Network Destination      Gateway   1    306 ::1/128                  On-link   1    306 ff00::/8                 On-link =========================================================================== Persistent Routes:   None]]></Routes>
+    </SystemInformation>
+    <OperatingSystem>
+        <Name>Microsoft Windows Server 2008 R2 Standard |C:\Windows|\Device\Harddisk0\Partition1</Name>
+        <SID>S-1-5-21-3589807843-835503610-4096890889</SID>
+        <Manufacturer>Microsoft Corporation</Manufacturer>
+        <Caption>Microsoft Windows Server 2008 R2 Standard </Caption>
+        <Version>6.1.7600</Version>
+        <CSDVersion />
+        <InstallDate>10/21/2010 16:57:09</InstallDate>
+        <LastBootUpTime>07/02/2013 17:33:16</LastBootUpTime>
+        <SerialNumber>55041-178-8097997-84132</SerialNumber>
+        <ServicePackMajorVersion>0</ServicePackMajorVersion>
+        <OSProductSuite>272</OSProductSuite>
+        <OtherTypeDescription />
+        <Description />
+        <OperatingSystemSKU>Standard Server Edition</OperatingSystemSKU>
+        <OSArchitecture>64-bit</OSArchitecture>
+        <BuildNumber>7600</BuildNumber>
+        <SystemDrive>C:</SystemDrive>
+        <SystemDirectory>C:\Windows\system32</SystemDirectory>
+        <WindowsDirectory>C:\Windows</WindowsDirectory>
+        <Organization>Interactive Intelligence Inc.</Organization>
+        <LocalDateTime>12/21/2013 13:57:19</LocalDateTime>
+        <OSType>18 (0x12) WINNT</OSType>
+        <ActivationStatus>Licensed</ActivationStatus>
+        <osRecoveryAutoReboot>True</osRecoveryAutoReboot>
+        <osRecoveryDebugInfoType>2</osRecoveryDebugInfoType>
+        <osRecoveryOverwriteExistingDebugFile>True</osRecoveryOverwriteExistingDebugFile>
+        <osRecoveryExpandedDebugFilePath>C:\Windows\MEMORY.DMP</osRecoveryExpandedDebugFilePath>
+        <osRecoveryExpandedMiniDumpDirectory>C:\Windows\Minidump</osRecoveryExpandedMiniDumpDirectory>
+    </OperatingSystem>
+    <Processors>
+        <Processor>
+            <DeviceID>CPU0</DeviceID>
+            <Name>Intel(R) Xeon(R) CPU           E5405  @ 2.00GHz</Name>
+            <Description>Intel64 Family 6 Model 23 Stepping 10</Description>
+            <Manufacturer>GenuineIntel</Manufacturer>
+            <Family>179</Family>
+            <ProcessorId>BFEBFBFF0001067A</ProcessorId>
+            <Status>OK</Status>
+            <AddressWidth>64</AddressWidth>
+            <DataWidth>64</DataWidth>
+            <ExternalClock>1333</ExternalClock>
+            <L2CacheSize>12288</L2CacheSize>
+            <MaxClockSpeed>2000</MaxClockSpeed>
+            <Revision>5898</Revision>
+            <SocketDesignation>Proc 1</SocketDesignation>
+            <Architecture>9</Architecture>
+            <CurrentClockSpeed>2000</CurrentClockSpeed>
+            <NumberOfCores>4</NumberOfCores>
+        </Processor>
+        <Processor>
+            <DeviceID>CPU1</DeviceID>
+            <Name>Intel(R) Xeon(R) CPU           E5405  @ 2.00GHz</Name>
+            <Description>Intel64 Family 6 Model 23 Stepping 10</Description>
+            <Manufacturer>GenuineIntel</Manufacturer>
+            <Family>179</Family>
+            <ProcessorId>BFEBFBFF0001067A</ProcessorId>
+            <Status>OK</Status>
+            <AddressWidth>64</AddressWidth>
+            <DataWidth>64</DataWidth>
+            <ExternalClock>1333</ExternalClock>
+            <L2CacheSize>12288</L2CacheSize>
+            <MaxClockSpeed>2000</MaxClockSpeed>
+            <Revision>5898</Revision>
+            <SocketDesignation>Proc 2</SocketDesignation>
+            <Architecture>9</Architecture>
+            <CurrentClockSpeed>2000</CurrentClockSpeed>
+            <NumberOfCores>4</NumberOfCores>
+        </Processor>
+    </Processors>
+    <Disks>
+        <Disk>
+            <Drive>C:</Drive>
+            <Disk>\\.\PHYSICALDRIVE0</Disk>
+            <Model>HP LOGICAL VOLUME SCSI Disk Device</Model>
+            <Partition>Disk #0, Partition #0</Partition>
+            <Description>Installable File System</Description>
+            <PrimaryPartition>True</PrimaryPartition>
+            <VolumeName>System</VolumeName>
+            <DiskSize>110</DiskSize>
+            <FreeSpace>33</FreeSpace>
+            <PercentageFree>30.04</PercentageFree>
+            <DiskType>Partition</DiskType>
+            <SerialNumber>PAFGL0R9SXA1VW</SerialNumber>
+        </Disk>
+        <Disk>
+            <Drive>D:</Drive>
+            <Disk>\\.\PHYSICALDRIVE1</Disk>
+            <Model>HP LOGICAL VOLUME SCSI Disk Device</Model>
+            <Partition>Disk #1, Partition #0</Partition>
+            <Description>Installable File System</Description>
+            <PrimaryPartition>True</PrimaryPartition>
+            <VolumeName>Data</VolumeName>
+            <DiskSize>547</DiskSize>
+            <FreeSpace>211</FreeSpace>
+            <PercentageFree>38.67</PercentageFree>
+            <DiskType>Partition</DiskType>
+            <SerialNumber>PAFGL0R9SXA1VW</SerialNumber>
+        </Disk>
+    </Disks>
+    <Shares>
+        <Share>
+            <Name>ADMIN$</Name>
+            <Description>Remote Admin</Description>
+            <MaximumAllowed />
+            <Path>C:\Windows</Path>
+            <AllowMaximum>True</AllowMaximum>
+            <ShareType>Disk Drive Admin</ShareType>
+        </Share>
+        <Share>
+            <Name>C$</Name>
+            <Description>Default share</Description>
+            <MaximumAllowed />
+            <Path>C:\</Path>
+            <AllowMaximum>True</AllowMaximum>
+            <ShareType>Disk Drive Admin</ShareType>
+        </Share>
+        <Share>
+            <Name>D$</Name>
+            <Description>Default share</Description>
+            <MaximumAllowed />
+            <Path>D:\</Path>
+            <AllowMaximum>True</AllowMaximum>
+            <ShareType>Disk Drive Admin</ShareType>
+        </Share>
+        <Share>
+            <Name>F$</Name>
+            <Description>Default share</Description>
+            <MaximumAllowed />
+            <Path>F:\</Path>
+            <AllowMaximum>True</AllowMaximum>
+            <ShareType>Disk Drive Admin</ShareType>
+        </Share>
+        <Share>
+            <Name>G$</Name>
+            <Description>Default share</Description>
+            <MaximumAllowed />
+            <Path>G:\</Path>
+            <AllowMaximum>True</AllowMaximum>
+            <ShareType>Disk Drive Admin</ShareType>
+        </Share>
+        <Share>
+            <Name>IPC$</Name>
+            <Description>Remote IPC</Description>
+            <MaximumAllowed />
+            <Path />
+            <AllowMaximum>True</AllowMaximum>
+            <ShareType>IPC Admin</ShareType>
+        </Share>
+    </Shares>
+    <SCSIControllers>
+        <SCSIController>
+            <Name>Smart Array P400 Controller</Name>
+            <DeviceID>PCI\VEN_103C&amp;DEV_3230&amp;SUBSYS_3234103C&amp;REV_04\6&amp;17D61D82&amp;0&amp;00080010</DeviceID>
+            <Manufacturer>Hewlett-Packard Company</Manufacturer>
+            <DriverName>HpCISSs2</DriverName>
+        </SCSIController>
+    </SCSIControllers>
+    <VideoController>
+        <Name>ATI ES1000</Name>
+        <DeviceID>VideoController1</DeviceID>
+        <AdapterCompatibility>TI Technologies Inc</AdapterCompatibility>
+        <InstalledDisplayDrivers />
+        <DriverVersion>8.240.50.5000</DriverVersion>
+        <DriverDate>06/22/2009 20:00:00</DriverDate>
+        <InfFilename>oem2.inf</InfFilename>
+        <PNPDeviceID>PCI\VEN_1002&amp;DEV_515E&amp;SUBSYS_31FB103C&amp;REV_02\4&amp;33A20732&amp;0&amp;18F0</PNPDeviceID>
+    </VideoController>
+    <NetworkAdapters>
+        <NetworkAdapter>
+            <Name>HP NC373i Multifunction Gigabit Server Adapter</Name>
+            <DeviceID>7</DeviceID>
+            <NetConnectionID>Local Area Connection</NetConnectionID>
+            <PNPDeviceId>B06BDRV\L2ND&amp;PCI_164C14E4&amp;SUBSYS_7038103C&amp;REV_12\6&amp;323FB026&amp;1&amp;20050300</PNPDeviceId>
+            <AdapterType>Ethernet 802.3</AdapterType>
+            <MACAddress>00:23:7D:E3:6C:84</MACAddress>
+            <Manufacturer>Hewlett-Packard Company</Manufacturer>
+            <PromiscuousMode>False</PromiscuousMode>
+            <ConnectionStatus>2 (0x2) Connected</ConnectionStatus>
+        </NetworkAdapter>
+        <NetworkAdapter>
+            <Name>HP NC373i Multifunction Gigabit Server Adapter</Name>
+            <DeviceID>10</DeviceID>
+            <NetConnectionID>Local Area Connection 2</NetConnectionID>
+            <PNPDeviceId>B06BDRV\L2ND&amp;PCI_164C14E4&amp;SUBSYS_7038103C&amp;REV_12\6&amp;249B009F&amp;2&amp;20050500</PNPDeviceId>
+            <AdapterType>Ethernet 802.3</AdapterType>
+            <MACAddress>00:23:7D:E3:6C:84</MACAddress>
+            <Manufacturer>Hewlett-Packard Company</Manufacturer>
+            <PromiscuousMode>False</PromiscuousMode>
+            <ConnectionStatus>2 (0x2) Connected</ConnectionStatus>
+        </NetworkAdapter>
+        <NetworkAdapter>
+            <Name>RAS Async Adapter</Name>
+            <DeviceID>11</DeviceID>
+            <NetConnectionID />
+            <PNPDeviceId>SW\{EEAB7790-C514-11D1-B42B-00805FC1270E}\ASYNCMAC</PNPDeviceId>
+            <AdapterType>Wide Area Network (WAN)</AdapterType>
+            <MACAddress>20:41:53:59:4E:FF</MACAddress>
+            <Manufacturer>Microsoft</Manufacturer>
+            <PromiscuousMode>False</PromiscuousMode>
+            <ConnectionStatus>0 (0x0) Disconnected</ConnectionStatus>
+        </NetworkAdapter>
+        <NetworkAdapter>
+            <Name>HP Network Team #1</Name>
+            <DeviceID>14</DeviceID>
+            <NetConnectionID>VLAN65</NetConnectionID>
+            <PNPDeviceId>ROOT\CQ_CPQTEAMMP\0000</PNPDeviceId>
+            <AdapterType>Ethernet 802.3</AdapterType>
+            <MACAddress>00:23:7D:E3:6C:84</MACAddress>
+            <Manufacturer>Hewlett-Packard Company</Manufacturer>
+            <PromiscuousMode>False</PromiscuousMode>
+            <ConnectionStatus>2 (0x2) Connected</ConnectionStatus>
+        </NetworkAdapter>
+    </NetworkAdapters>
+    <NetworkAdapterConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (SSTP)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>0</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>RasSstp</ServiceName>
+            <SettingId>4AE6B55C-6DD6-427D-A5BB-13535D4BE926</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (IKEv2)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>1</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>RasAgileVpn</ServiceName>
+            <SettingId>DBD85EFC-7CFA-4A38-90A3-4803A40BF61E</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (L2TP)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>2</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>Rasl2tp</ServiceName>
+            <SettingId>66973E50-CF44-46A7-AD86-0F369D30ACA2</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (PPTP)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>3</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>PptpMiniport</ServiceName>
+            <SettingId>F93EB786-8968-43C5-BC58-54D87385060E</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (PPPOE)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>4</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>RasPppoe</ServiceName>
+            <SettingId>6A16EDEB-24DF-416A-B427-CED88EFCA006</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (IPv6)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>5</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>NdisWan</ServiceName>
+            <SettingId>F4373218-ED19-4F3D-8DB4-982009ED86B7</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (Network Monitor)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>6</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>NdisWan</ServiceName>
+            <SettingId>5356FE17-48EE-4A7A-BECE-645E20060A52</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>HP NC373i Multifunction Gigabit Server Adapter</Description>
+            <DHCPEnabled>True</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>7</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress>00:23:7D:E3:6C:84</MACAddress>
+            <ServiceName>l2nd</ServiceName>
+            <SettingId>E7127293-5B34-48F0-AD92-45A3560F16E7</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>Microsoft ISATAP Adapter</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>8</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>tunnel</ServiceName>
+            <SettingId>3CD61B4F-5914-42B0-9874-A416981754D7</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>WAN Miniport (IP)</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>9</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>NdisWan</ServiceName>
+            <SettingId>66513FCE-F1B9-480C-B278-3DD588D5D452</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>HP NC373i Multifunction Gigabit Server Adapter</Description>
+            <DHCPEnabled>True</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>10</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress>00:23:7D:E3:6C:84</MACAddress>
+            <ServiceName>l2nd</ServiceName>
+            <SettingId>7B1DC21B-8D71-453B-9A2F-FACE284DC555</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>RAS Async Adapter</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>11</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress>20:41:53:59:4E:FF</MACAddress>
+            <ServiceName>AsyncMac</ServiceName>
+            <SettingId>DD2F4800-0DEB-4A98-A302-0777CB955DC1</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>Microsoft Teredo Tunneling Adapter</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>12</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>tunnel</ServiceName>
+            <SettingId>6D83FB62-AF9F-4AF2-8264-AFA047BA43FA</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway />
+            <Description>Microsoft ISATAP Adapter</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder />
+            <DNSEnabledForWINSResolution />
+            <DNSServerSearchOrder />
+            <DomainDNSRegistrationEnabled />
+            <FullDNSRegistrationEnabled />
+            <Index>13</Index>
+            <IPAddress />
+            <IPConnectionMetric />
+            <IPSubnet />
+            <IPEnabled>False</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress />
+            <ServiceName>tunnel</ServiceName>
+            <SettingId>4E38719B-4B68-4D2A-86C5-326E0623B668</SettingId>
+            <TCPIPNetBIOSOptions />
+            <WINSEnableLMHostsLookup />
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+        <NetAdpConfiguration>
+            <DefaultIPGateway>172.31.65.1</DefaultIPGateway>
+            <Description>HP Network Team #1</Description>
+            <DHCPEnabled>False</DHCPEnabled>
+            <DHCPServer />
+            <DNSDomain />
+            <DNSDomainSuffixSearchOrder>caas.local</DNSDomainSuffixSearchOrder>
+            <DNSEnabledForWINSResolution>False</DNSEnabledForWINSResolution>
+            <DNSServerSearchOrder>172.31.65.21 172.31.65.22</DNSServerSearchOrder>
+            <DomainDNSRegistrationEnabled>False</DomainDNSRegistrationEnabled>
+            <FullDNSRegistrationEnabled>True</FullDNSRegistrationEnabled>
+            <Index>14</Index>
+            <IPAddress>172.31.65.35</IPAddress>
+            <IPConnectionMetric>10</IPConnectionMetric>
+            <IPSubnet>255.255.255.0</IPSubnet>
+            <IPEnabled>True</IPEnabled>
+            <IPXAddress />
+            <IPXEnabled />
+            <MACAddress>00:23:7D:E3:6C:84</MACAddress>
+            <ServiceName>CPQTeamMP</ServiceName>
+            <SettingId>C8AB3448-6C4A-47FE-B58A-303E746097D4</SettingId>
+            <TCPIPNetBIOSOptions>2</TCPIPNetBIOSOptions>
+            <WINSEnableLMHostsLookup>False</WINSEnableLMHostsLookup>
+            <WINSPrimaryServer />
+            <WINSSecondaryServer />
+        </NetAdpConfiguration>
+    </NetworkAdapterConfiguration>
+    <Features>
+        <Feature>.NET Extensibility</Feature>
+        <Feature>.NET Framework 3.5.1</Feature>
+        <Feature>.NET Framework 3.5.1 Features</Feature>
+        <Feature>Application Development</Feature>
+        <Feature>ASP.NET</Feature>
+        <Feature>Common HTTP Features</Feature>
+        <Feature>Default Document</Feature>
+        <Feature>Directory Browsing</Feature>
+        <Feature>Health and Diagnostics</Feature>
+        <Feature>HTTP Errors</Feature>
+        <Feature>HTTP Logging</Feature>
+        <Feature>HTTP Redirection</Feature>
+        <Feature>IIS Management Console</Feature>
+        <Feature>ISAPI Extensions</Feature>
+        <Feature>ISAPI Filters</Feature>
+        <Feature>Management Tools</Feature>
+        <Feature>Performance</Feature>
+        <Feature>Remote Server Administration Tools</Feature>
+        <Feature>Request Filtering</Feature>
+        <Feature>Request Monitor</Feature>
+        <Feature>Role Administration Tools</Feature>
+        <Feature>Security</Feature>
+        <Feature>SNMP Service</Feature>
+        <Feature>SNMP Services</Feature>
+        <Feature>Static Content</Feature>
+        <Feature>Static Content Compression</Feature>
+        <Feature>Web Server</Feature>
+        <Feature>Web Server (IIS)</Feature>
+        <Feature>Web Server (IIS) Tools</Feature>
+        <Feature>Windows Authentication</Feature>
+    </Features>
+    <Security>
+        <LocaladmGroup>
+            <Members>
+                <Member> 107NF0310SQL05\Administrator</Member>
+                <Member> CAAS\Domain Admins</Member>
+                <Member> CAAS\sqladmin30</Member>
+                <Member> CAAS\CaaSSWAdmin</Member>
+            </Members>
+        </LocaladmGroup>
+        <LocalPowerUsersGroup>
+            <Members>
+                <Member />
+            </Members>
+        </LocalPowerUsersGroup>
+        <LocalRemoteDesktopUsersGroup>
+            <Members>
+                <Member> REMOTE\NOC_John.Strong</Member>
+            </Members>
+        </LocalRemoteDesktopUsersGroup>
+    </Security>
+    <InstalledUpdates>
+        <Update>
+            <HotFixID>KB2160841</HotFixID>
+            <Title>Security Update for .NET Framework 4 on Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008, Windows Server 2008 R2 for x64-based Systems (KB2160841)</Title>
+            <InstallDate>12/07/2010 14:35:30</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982526</HotFixID>
+            <Title>Microsoft .NET Framework 3.5 SP1 Update for Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB982526)</Title>
+            <InstallDate>12/07/2010 14:35:35</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2249857</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2249857)</Title>
+            <InstallDate>12/06/2010 21:57:56</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2416472</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008, Windows Server 2008 R2 for x64-based Systems (KB2416472)</Title>
+            <InstallDate>12/07/2010 14:34:20</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>N/A</HotFixID>
+            <Title>Windows Update Agent 7.4.7600.226</Title>
+            <InstallDate>01/23/2011 07:35:34</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2436673</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2436673)</Title>
+            <InstallDate>02/01/2011 15:27:13</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2447568</HotFixID>
+            <Title>Update for Internet Explorer 8 Compatibility View List for Windows Server 2008 R2 x64 Edition (KB2447568)</Title>
+            <InstallDate>02/01/2011 15:27:20</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2443685</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2443685)</Title>
+            <InstallDate>02/01/2011 15:26:43</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2416400</HotFixID>
+            <Title>Cumulative Security Update for Internet Explorer 8 for Windows Server 2008 R2 x64 Edition (KB2416400)</Title>
+            <InstallDate>02/01/2011 15:27:05</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2249857</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2249857)</Title>
+            <InstallDate>12/06/2010 21:53:50</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB979099</HotFixID>
+            <Title>Update for Rights Management Services Client for Windows Server 2008 R2 x64 Edition (KB979099)</Title>
+            <InstallDate>12/06/2010 21:47:17</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2388210</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2388210)</Title>
+            <InstallDate>12/06/2010 21:47:19</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB979538</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB979538)</Title>
+            <InstallDate>12/06/2010 21:47:16</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB976422</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB976422)</Title>
+            <InstallDate>12/06/2010 21:47:16</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB978637</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB978637)</Title>
+            <InstallDate>12/06/2010 21:47:20</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982110</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB982110)</Title>
+            <InstallDate>12/06/2010 21:47:25</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982671</HotFixID>
+            <Title>Microsoft .NET Framework 4 for Windows Server 2008 R2 x64-based Systems (KB982671)</Title>
+            <InstallDate>12/06/2010 21:53:39</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB974332</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB974332)</Title>
+            <InstallDate>12/06/2010 21:47:22</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB980846</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB980846)</Title>
+            <InstallDate>12/06/2010 21:47:23</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB981111</HotFixID>
+            <Title>Update for Best Practices Analyzer for File Services for Windows Server 2008 R2 x64 Edition (KB981111)</Title>
+            <InstallDate>02/01/2011 15:29:43</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB981392</HotFixID>
+            <Title>Update for Best Practices Analyzer for Application Server for Windows Server 2008 R2 x64 Edition (KB981392)</Title>
+            <InstallDate>02/01/2011 15:29:55</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB976902</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB976902)</Title>
+            <InstallDate>02/01/2011 15:29:23</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2419640</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2419640)</Title>
+            <InstallDate>02/01/2011 15:29:32</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2467659</HotFixID>
+            <Title>Update for Internet Explorer for Windows Server 2008 R2 x64 Edition (KB2467659)</Title>
+            <InstallDate>02/01/2011 15:30:06</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2386667</HotFixID>
+            <Title>Update for Best Practices Analyzer for Application Server for Windows Server 2008 R2 x64 Edition (KB2386667)</Title>
+            <InstallDate>02/01/2011 16:11:04</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>N/A</HotFixID>
+            <Title>Windows Update Agent 7.6.7600.256</Title>
+            <InstallDate>06/21/2012 01:41:28</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982666</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB982666)</Title>
+            <InstallDate>02/01/2011 15:30:15</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB890830</HotFixID>
+            <Title>Windows Malicious Software Removal Tool x64 - January 2011 (KB890830)</Title>
+            <InstallDate>02/01/2011 15:31:44</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB977238</HotFixID>
+            <Title>Update for Best Practices Analyzer for HYPER-V for Windows Server 2008 R2 x64 Edition (KB977238)</Title>
+            <InstallDate>02/01/2011 15:29:20</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB981390</HotFixID>
+            <Title>Update for Best Practices Analyzer for Windows Server Update Services for Windows Server 2008 R2 x64 Edition (KB981390)</Title>
+            <InstallDate>02/01/2011 15:27:55</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2423089</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2423089)</Title>
+            <InstallDate>02/01/2011 15:28:03</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB981391</HotFixID>
+            <Title>Update for Best Practices Analyzer for Active Directory Rights Management Services for Windows Server 2008 R2 x64 Edition (KB981391)</Title>
+            <InstallDate>02/01/2011 15:27:31</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2296199</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2296199)</Title>
+            <InstallDate>02/01/2011 15:27:40</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2305420</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2305420)</Title>
+            <InstallDate>02/01/2011 15:28:13</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2385678</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2385678)</Title>
+            <InstallDate>02/01/2011 15:28:42</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB977236</HotFixID>
+            <Title>Update for Best Practices Analyzer for DHCP Server for Windows Server 2008 R2 x64 Edition (KB977236)</Title>
+            <InstallDate>02/01/2011 15:29:08</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>N/A</HotFixID>
+            <Title>Update for Best Practices Analyzer for Network Policy and Access Services for Windows Server 2008 R2 x64 Edition (NPAS) (KB977239)</Title>
+            <InstallDate>02/01/2011 15:28:25</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2442962</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2442962)</Title>
+            <InstallDate>02/01/2011 15:28:33</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB980195</HotFixID>
+            <Title>Cumulative Security Update for ActiveX Killbits for Windows Server 2008 R2 x64 Edition (KB980195)</Title>
+            <InstallDate>12/06/2010 20:55:09</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB981957</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB981957)</Title>
+            <InstallDate>12/06/2010 20:44:54</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB978542</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB978542)</Title>
+            <InstallDate>12/06/2010 20:45:08</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB978601</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB978601)</Title>
+            <InstallDate>12/06/2010 20:44:23</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2286198</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2286198)</Title>
+            <InstallDate>12/06/2010 20:44:37</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB974431</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB974431)</Title>
+            <InstallDate>12/06/2010 20:45:30</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2387149</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2387149)</Title>
+            <InstallDate>12/06/2010 20:46:23</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2360131</HotFixID>
+            <Title>Cumulative Security Update for Internet Explorer 8 for Windows Server 2008 R2 x64 Edition (KB2360131)</Title>
+            <InstallDate>12/06/2010 20:46:55</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB979687</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB979687)</Title>
+            <InstallDate>12/06/2010 20:45:46</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2416471</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1, Windows 7, and Windows Server 2008 R2 for x64-based Systems (KB2416471)</Title>
+            <InstallDate>12/06/2010 20:46:08</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982132</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB982132)</Title>
+            <InstallDate>12/06/2010 20:44:12</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB980408</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB980408)</Title>
+            <InstallDate>12/06/2010 20:42:28</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2207566</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2207566)</Title>
+            <InstallDate>12/06/2010 20:42:39</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982214</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB982214)</Title>
+            <InstallDate>12/06/2010 20:42:15</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB975467</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB975467)</Title>
+            <InstallDate>12/06/2010 20:42:19</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB979688</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB979688)</Title>
+            <InstallDate>12/06/2010 20:42:48</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2158563</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2158563)</Title>
+            <InstallDate>12/06/2010 20:43:17</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB890830</HotFixID>
+            <Title>Windows Malicious Software Removal Tool x64 - November 2010 (KB890830)</Title>
+            <InstallDate>12/06/2010 20:44:03</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB981332</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB981332)</Title>
+            <InstallDate>12/06/2010 20:42:55</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982799</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB982799)</Title>
+            <InstallDate>12/06/2010 20:43:04</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB976662</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB976662)</Title>
+            <InstallDate>12/06/2010 20:52:18</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB980232</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB980232)</Title>
+            <InstallDate>12/06/2010 20:52:40</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB979482</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB979482)</Title>
+            <InstallDate>12/06/2010 20:51:30</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB974571</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB974571)</Title>
+            <InstallDate>12/06/2010 20:51:56</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB972270</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB972270)</Title>
+            <InstallDate>12/06/2010 20:53:07</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB977074</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB977074)</Title>
+            <InstallDate>12/06/2010 20:54:15</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2347290</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2347290)</Title>
+            <InstallDate>12/06/2010 20:54:38</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB979309</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB979309)</Title>
+            <InstallDate>12/06/2010 20:53:28</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2345886</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2345886)</Title>
+            <InstallDate>12/06/2010 20:53:51</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2296011</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2296011)</Title>
+            <InstallDate>12/06/2010 20:51:03</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB981852</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB981852)</Title>
+            <InstallDate>12/06/2010 20:48:17</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB978886</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB978886)</Title>
+            <InstallDate>12/06/2010 20:48:39</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB980218</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB980218)</Title>
+            <InstallDate>12/06/2010 20:47:20</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB982526</HotFixID>
+            <Title>Microsoft .NET Framework 3.5 SP1 Update for Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB982526)</Title>
+            <InstallDate>12/06/2010 20:47:51</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2079403</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2079403)</Title>
+            <InstallDate>12/06/2010 20:49:01</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB975560</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB975560)</Title>
+            <InstallDate>12/06/2010 20:50:06</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB983590</HotFixID>
+            <Title>Security Update for .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB983590)</Title>
+            <InstallDate>12/06/2010 20:50:36</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2032276</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2032276)</Title>
+            <InstallDate>12/06/2010 20:49:22</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB979916</HotFixID>
+            <Title>Microsoft .NET Framework 3.5 SP1 Security Update for Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB979916)</Title>
+            <InstallDate>12/06/2010 20:49:44</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2536275</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2536275)</Title>
+            <InstallDate>07/02/2013 20:19:19</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2655992</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2655992)</Title>
+            <InstallDate>07/02/2013 20:19:48</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2643719</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2643719)</Title>
+            <InstallDate>07/02/2013 20:17:33</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2737019</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on XP, Server 2003, Vista, Windows 7, Server 2008, Server 2008 R2 for x64 (KB2737019)</Title>
+            <InstallDate>07/02/2013 20:18:58</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2535512</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2535512)</Title>
+            <InstallDate>07/02/2013 20:20:10</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2729451</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2729451)</Title>
+            <InstallDate>07/02/2013 20:21:53</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2511455</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2511455)</Title>
+            <InstallDate>07/02/2013 20:22:21</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2654428</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2654428)</Title>
+            <InstallDate>07/02/2013 20:20:36</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2706045</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2706045)</Title>
+            <InstallDate>07/02/2013 20:21:10</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2790113</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2790113)</Title>
+            <InstallDate>07/02/2013 20:17:12</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2494086</HotFixID>
+            <Title>Security Update for SQL Server 2008 R2 (KB2494086)</Title>
+            <InstallDate>07/02/2013 20:10:49</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2636573</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2636573)</Title>
+            <InstallDate>07/02/2013 20:11:14</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2645640</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2645640)</Title>
+            <InstallDate>07/02/2013 20:01:51</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2770660</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2770660)</Title>
+            <InstallDate>07/02/2013 20:02:18</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2719033</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2719033)</Title>
+            <InstallDate>07/02/2013 20:11:45</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2840149</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2840149)</Title>
+            <InstallDate>07/02/2013 20:16:10</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2506014</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2506014)</Title>
+            <InstallDate>07/02/2013 20:16:35</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2789642</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on XP, Server 2003, Vista, Windows 7, Server 2008, Server 2008 R2 for x64 (KB2789642)</Title>
+            <InstallDate>07/02/2013 20:15:17</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2618451</HotFixID>
+            <Title>Cumulative Security Update for ActiveX Killbits for Windows Server 2008 R2 x64 Edition (KB2618451)</Title>
+            <InstallDate>07/02/2013 20:15:45</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2656410</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2656410)</Title>
+            <InstallDate>07/02/2013 20:29:54</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2742595</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on XP, Server 2003, Vista, Windows 7, Server 2008, Server 2008 R2 for x64 (KB2742595)</Title>
+            <InstallDate>07/02/2013 20:33:05</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2685939</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2685939)</Title>
+            <InstallDate>07/02/2013 20:28:47</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2807986</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2807986)</Title>
+            <InstallDate>07/02/2013 20:29:24</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2813170</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2813170)</Title>
+            <InstallDate>07/02/2013 20:33:53</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2584146</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2584146)</Title>
+            <InstallDate>07/02/2013 20:35:26</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2690533</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2690533)</Title>
+            <InstallDate>07/02/2013 20:35:51</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2658846</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2658846)</Title>
+            <InstallDate>07/02/2013 20:34:24</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2570947</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2570947)</Title>
+            <InstallDate>07/02/2013 20:35:01</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2667402</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2667402)</Title>
+            <InstallDate>07/02/2013 20:28:17</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2743555</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2743555)</Title>
+            <InstallDate>07/02/2013 20:24:06</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2425227</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2425227)</Title>
+            <InstallDate>07/02/2013 20:24:29</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2789644</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2789644)</Title>
+            <InstallDate>07/02/2013 20:22:55</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2769369</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2769369)</Title>
+            <InstallDate>07/02/2013 20:23:36</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2757638</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2757638)</Title>
+            <InstallDate>07/02/2013 20:25:12</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2790655</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2790655)</Title>
+            <InstallDate>07/02/2013 20:27:14</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2698365</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2698365)</Title>
+            <InstallDate>07/02/2013 20:27:53</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2604114</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2604114)</Title>
+            <InstallDate>07/02/2013 20:25:46</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2813347</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2813347)</Title>
+            <InstallDate>07/02/2013 20:26:38</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2748349</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2748349)</Title>
+            <InstallDate>07/02/2013 20:01:26</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2808735</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2808735)</Title>
+            <InstallDate>07/02/2013 19:41:34</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2506212</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2506212)</Title>
+            <InstallDate>07/02/2013 19:41:43</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2676562</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2676562)</Title>
+            <InstallDate>07/02/2013 19:41:23</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2798897</HotFixID>
+            <Title>Update for Windows Vista, Windows 7, Server 2008, Server 2008 R2 (KB2798897)</Title>
+            <InstallDate>07/02/2013 19:41:24</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2631813</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2631813)</Title>
+            <InstallDate>07/02/2013 19:41:53</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2736428</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on XP, Server 2003, Vista, Windows 7, Server 2008, Server 2008 R2 for x64 (KB2736428)</Title>
+            <InstallDate>07/02/2013 19:45:21</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2753842</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2753842)</Title>
+            <InstallDate>07/02/2013 19:45:40</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2656355</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2656355)</Title>
+            <InstallDate>07/02/2013 19:42:02</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2509553</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2509553)</Title>
+            <InstallDate>07/02/2013 19:42:30</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2552343</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2552343)</Title>
+            <InstallDate>07/02/2013 19:40:30</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2765809</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2765809)</Title>
+            <InstallDate>07/02/2013 19:36:51</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2585542</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2585542)</Title>
+            <InstallDate>07/02/2013 19:37:04</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2644615</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2644615)</Title>
+            <InstallDate>07/02/2013 19:36:09</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2742598</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2742598)</Title>
+            <InstallDate>07/02/2013 19:36:30</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2817183</HotFixID>
+            <Title>Cumulative Security Update for Internet Explorer 8 for Windows Server 2008 R2 x64 Edition (KB2817183)</Title>
+            <InstallDate>07/02/2013 19:38:05</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2620704</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2620704)</Title>
+            <InstallDate>07/02/2013 19:39:53</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2564958</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2564958)</Title>
+            <InstallDate>07/02/2013 19:40:03</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2487367</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008, Windows Server 2008 R2 for x64-based Systems (KB2487367)</Title>
+            <InstallDate>07/02/2013 19:39:34</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2483614</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2483614)</Title>
+            <InstallDate>07/02/2013 19:39:44</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2749655</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2749655)</Title>
+            <InstallDate>07/02/2013 19:52:58</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2718704</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2718704)</Title>
+            <InstallDate>07/02/2013 19:53:23</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2393802</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2393802)</Title>
+            <InstallDate>07/02/2013 19:51:50</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2653956</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2653956)</Title>
+            <InstallDate>07/02/2013 19:52:23</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2604121</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on XP, Server 2003, Vista, Windows 7, Server 2008, Server 2008 R2 for x64 (KB2604121)</Title>
+            <InstallDate>07/02/2013 19:56:09</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2560656</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2560656)</Title>
+            <InstallDate>07/02/2013 19:59:59</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2758857</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2758857)</Title>
+            <InstallDate>07/02/2013 20:00:59</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2729449</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on XP, Server 2003, Vista, Windows 7, Server 2008, Server 2008 R2 for x64 (KB2729449)</Title>
+            <InstallDate>07/02/2013 19:58:50</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2705219</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2705219)</Title>
+            <InstallDate>07/02/2013 19:59:26</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2659262</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2659262)</Title>
+            <InstallDate>07/02/2013 19:51:28</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2544893</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2544893)</Title>
+            <InstallDate>07/02/2013 19:46:45</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2661254</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2661254)</Title>
+            <InstallDate>07/02/2013 19:47:28</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2712808</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2712808)</Title>
+            <InstallDate>07/02/2013 19:45:57</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2756920</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2756920)</Title>
+            <InstallDate>07/02/2013 19:46:33</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2621440</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2621440)</Title>
+            <InstallDate>07/02/2013 19:47:41</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2691442</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2691442)</Title>
+            <InstallDate>07/02/2013 19:50:36</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2736418</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2736418)</Title>
+            <InstallDate>07/02/2013 19:51:05</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2656351</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 4 on XP, Server 2003, Vista, Windows 7, Server 2008, Server 2008 R2 for x64 (KB2656351)</Title>
+            <InstallDate>07/02/2013 19:49:56</InstallDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2785220</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2785220)</Title>
+            <InstallDate>07/02/2013 19:50:15</InstallDate>
+        </Update>
+    </InstalledUpdates>
+    <PendingUpdates>
+        <Update>
+            <HotFixID>KB2483614</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2483614)</Title>
+            <Severity>Important</Severity>
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2506212</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2506212)</Title>
+            <Severity>Important</Severity>
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2533552</HotFixID>
+            <Title>Update for Windows Server 2008 R2 x64 Edition (KB2533552)</Title>
+            <Severity />
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB976932</HotFixID>
+            <Title>Windows Server 2008 R2 Service Pack 1 for x64-based Systems (KB976932)</Title>
+            <Severity />
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2536276</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2536276)</Title>
+            <Severity>Critical</Severity>
+            <ReleaseDate>23/10/2013</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2564958</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2564958)</Title>
+            <Severity>Important</Severity>
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2620704</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2620704)</Title>
+            <Severity>Low</Severity>
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2656355</HotFixID>
+            <Title>Security Update for Microsoft .NET Framework 3.5.1 on Windows 7 and Windows Server 2008 R2 for x64-based Systems (KB2656355)</Title>
+            <Severity>Critical</Severity>
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2631813</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2631813)</Title>
+            <Severity>Important</Severity>
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2528583</HotFixID>
+            <Title>Microsoft SQL Server 2008 R2 Service Pack 1 (KB2528583)</Title>
+            <Severity />
+            <ReleaseDate>12/07/2012</ReleaseDate>
+        </Update>
+        <Update>
+            <HotFixID>KB2808735</HotFixID>
+            <Title>Security Update for Windows Server 2008 R2 x64 Edition (KB2808735)</Title>
+            <Severity>Important</Severity>
+            <ReleaseDate>15/04/2013</ReleaseDate>
+        </Update>
+    </PendingUpdates>
+    <SymantecEndpointProtection>
+        <isInstalled>False</isInstalled>
+        <Version />
+        <InstallDate />
+        <LatestDefinition />
+    </SymantecEndpointProtection>
+    <InstalledApplications>
+        <Application>
+            <Name>7-Zip 9.20 (x64 edition)</Name>
+            <Version>9.20.00.0</Version>
+            <Vendor>Igor Pavlov</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Headless Server Registry Update</Name>
+            <Version>1.0.0.0</Version>
+            <Vendor>Hewlett-Packard Company</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Array Configuration Utility</Name>
+            <Version>8.60.7.0</Version>
+            <Vendor>Hewlett Packard Development Company, L.P.</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Array Configuration Utility CLI</Name>
+            <Version>8.60.8.0</Version>
+            <Vendor>Hewlett-Packard Development Company, L.P.</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Insight Diagnostics  Online Edition for Windows</Name>
+            <Version>8.6.0</Version>
+            <Vendor>Hewlett-Packard Development Company, L.P.</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Insight Management Agents</Name>
+            <Version>8.60.0.0</Version>
+            <Vendor>Hewlett-Packard Company</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Insight Management WBEM Providers</Name>
+            <Version>2.7.0.0</Version>
+            <Vendor>Hewlett-Packard Development Company, L.P.</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Lights-Out Online Configuration Utility</Name>
+            <Version>3.1.1.0</Version>
+            <Vendor>Hewlett-Packard Development Company, L.P.</Vendor>
+            <InstallDate>01/02/2011</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP ProLiant Integrated Management Log Viewer</Name>
+            <Version>5.24.0.0</Version>
+            <Vendor>Hewlett-Packard Company</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP ProLiant PCI-express Power Management Update for Windows</Name>
+            <Version>1.3.0.0</Version>
+            <Vendor>Hewlett-Packard Company</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP ProLiant Remote Monitor Service</Name>
+            <Version>5.21.0.0</Version>
+            <Vendor>Hewlett-Packard Company</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Smart Array SAS/SATA Event Notification Service</Name>
+            <Version>6.22.0.64</Version>
+            <Vendor>Hewlett-Packard Development Company, L.P.</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>HP Version Control Agent</Name>
+            <Version>6.2.0.860</Version>
+            <Vendor>Hewlett Packard Development Company, L.P.</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft .NET Framework 4 Client Profile</Name>
+            <Version>4.0.30319</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft .NET Framework 4 Extended</Name>
+            <Version>4.0.30319</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Application Error Reporting</Name>
+            <Version>12.0.6015.5000</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Office 2003 Web Components</Name>
+            <Version>12.0.6213.1000</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>07/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Report Viewer Redistributable 2008 (KB971119)</Name>
+            <Version>9.0.30731</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server 2008 R2 Native Client</Name>
+            <Version>10.50.1790.0</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server 2008 R2 Policies</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>01/02/2011</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server 2008 R2 Report Builder 3.0</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>07/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server 2008 R2 RsFx Driver</Name>
+            <Version>10.50.1790.0</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server 2008 R2 Setup (English)</Name>
+            <Version>10.50.1790.0</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server 2008 Setup Support Files </Name>
+            <Version>10.1.2731.0</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server Browser</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server Compact 3.5 SP2 ENU</Name>
+            <Version>3.5.8080.0</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server Compact 3.5 SP2 Query Tools ENU</Name>
+            <Version>3.5.8080.0</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server System CLR Types (x64)</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft SQL Server VSS Writer</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Visual C++ 2005 Redistributable</Name>
+            <Version>8.0.50727.42</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Visual C++ 2005 Redistributable (x64)</Name>
+            <Version>8.0.50727.42</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Visual C++ 2005 Redistributable (x64)</Name>
+            <Version>8.0.59192</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148</Name>
+            <Version>9.0.30729.4148</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Microsoft Visual Studio Tools for Applications 2.0 - ENU</Name>
+            <Version>9.0.35191</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>PFA Server Registry Update</Name>
+            <Version>1.0.0.0</Version>
+            <Vendor>Hewlett-Packard Company</Vendor>
+            <InstallDate>21/10/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Client Tools</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Client Tools</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Common Files</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Common Files</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Database Engine Services</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Database Engine Services</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Database Engine Shared</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Database Engine Shared</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Management Studio</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Management Studio</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Reporting Services</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>02/07/2013</InstallDate>
+        </Application>
+        <Application>
+            <Name>SQL Server 2008 R2 Reporting Services</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>07/12/2010</InstallDate>
+        </Application>
+        <Application>
+            <Name>Sql Server Customer Experience Improvement Program</Name>
+            <Version>10.50.1600.1</Version>
+            <Vendor>Microsoft Corporation</Vendor>
+            <InstallDate>06/12/2010</InstallDate>
+        </Application>
+    </InstalledApplications>
+</ComputerAssetInformation>

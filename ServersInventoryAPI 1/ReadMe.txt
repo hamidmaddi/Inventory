@@ -1,0 +1,1 @@
+ServersInventoryAPI1 is a downstream version of the ServersInventoryAPI. The role of this web API is to serve as a bridge and tranport data from each environment to the upstream server in Adminhub.
